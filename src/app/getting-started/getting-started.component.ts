@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
+import { ComponentListService } from '../services/component-list.service';
 
 @Component({
   selector: 'app-getting-started',
@@ -6,10 +7,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./getting-started.component.scss']
 })
 export class GettingStartedComponent implements OnInit {
+  componentList: string[];
+  currentComponent: string;
 
-  constructor() { }
+  constructor(private componentListService: ComponentListService) {}
 
   ngOnInit() {
+    this.componentList = this.componentListService.componentList();
   }
-
 }
