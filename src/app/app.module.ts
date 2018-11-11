@@ -3,11 +3,12 @@ import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { GettingStartedComponent } from './getting-started/getting-started.component';
-import { HomeComponent } from './home/home.component';
+import { GettingStartedComponent } from './components/getting-started/getting-started.component';
+import { HomeComponent } from './components/home/home.component';
+import { NavComponent } from './components/nav/nav.component';
 
 @NgModule({
-  declarations: [AppComponent, GettingStartedComponent, HomeComponent],
+  declarations: [AppComponent, GettingStartedComponent, HomeComponent, NavComponent],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
   bootstrap: [AppComponent],

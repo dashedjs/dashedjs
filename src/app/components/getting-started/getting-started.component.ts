@@ -1,5 +1,5 @@
-import { Component, OnInit, Input } from '@angular/core';
-import { ComponentListService } from '../services/component-list.service';
+import { Component, OnInit } from '@angular/core';
+import { ComponentListService } from '../../services/component-list.service';
 
 @Component({
   selector: 'app-getting-started',

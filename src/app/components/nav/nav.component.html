@@ -1,0 +1,17 @@
+<dashed-header
+  [navItems]="navItems"
+  logo-src="/assets/img/logo.png"
+  logo-text="Dashedjs"
+>
+  <!--
+    <ul slot="ul" id="menu" role="menu" aria-labelledby="menubutton">
+      <li role="none" *ngFor="let navItem of navItems">
+        <a role="menuitem"> {{ navItem.text }} </a>
+      </li>
+    </ul>
+  -->
+
+  <button slot="right-slot" role="search" aria-label="Source on Github">
+    <dashed-icon name="github"></dashed-icon>
+  </button>
+</dashed-header>

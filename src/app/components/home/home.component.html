@@ -5,11 +5,16 @@
   <div class="action-buttons">
     <dashed-button
       routerLink="getting-started"
-      dash-color="primary"
       border-radius="6"
+      dash-color="primary"
       >Get started
     </dashed-button>
-    <dashed-button dash-color="danger" border-radius="6">Source</dashed-button>
+    <dashed-button
+      (click)="onClick($event)"
+      border-radius="6"
+      dash-color="danger"
+      >Source</dashed-button
+    >
 
     <!-- <button>Source</button> -->
 
