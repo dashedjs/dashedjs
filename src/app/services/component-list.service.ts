@@ -12,7 +12,6 @@ export class ComponentListService {
       'Card',
       'Checkbox',
       'Fab',
-      'Footer',
       'Header',
       'Icon',
       'Icons',
