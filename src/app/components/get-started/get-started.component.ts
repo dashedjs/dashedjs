@@ -2,11 +2,11 @@ import { Component, OnInit } from '@angular/core';
 import { ComponentListService } from '../../services/component-list.service';
 
 @Component({
-  selector: 'app-getting-started',
-  templateUrl: './getting-started.component.html',
-  styleUrls: ['./getting-started.component.scss']
+  selector: 'app-get-started',
+  templateUrl: './get-started.component.html',
+  styleUrls: ['./get-started.component.scss']
 })
-export class GettingStartedComponent implements OnInit {
+export class GetStartedComponent implements OnInit {
   componentList: string[];
   currentComponent: string;
 

@@ -11,24 +11,15 @@ export class NavComponent implements OnInit {
   navItems: NavItem[] = [
     {
       text: 'Getting started',
-      href: '#',
-      onclick: function() {
-        console.log('hello Getting started');
-      }
+      href: '#'
     },
     {
       text: 'Components',
-      // href: '#',
-      onclick: function() {
-        console.log('hello Components');
-      }
+      href: '#'
     },
     {
       text: 'Playground',
-      href: '#',
-      onclick: function() {
-        console.log('hello Playground');
-      }
+      href: '#'
     }
   ];
 

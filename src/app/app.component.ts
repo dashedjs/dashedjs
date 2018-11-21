@@ -8,11 +8,12 @@ import * as DashedElements from './dashed-elements';
 })
 export class AppComponent {
   constructor() {
-    Object.keys(DashedElements).forEach(key => {
-      console.log(DashedElements[key].name);
-      if (key == 'DashedButton') {
-        console.log('customProperties', DashedElements[key].prototype);
-      }
-    });
+    console.log(DashedElements);
+    // Object.keys(DashedElements).forEach(key => {
+    //   console.log(DashedElements[key].name);
+    //   if (key == 'DashedButton') {
+    //     console.log('customProperties', DashedElements[key].prototype);
+    //   }
+    // });
   }
 }
